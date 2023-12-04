@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
 
-const inputFile = Bun.file('./day-1/input.txt')
+const inputFile = Bun.file('./src/day-1/input.txt')
 const inputText = await inputFile.text()
 
 const values: Record<string, string> = {
